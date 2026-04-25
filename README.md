@@ -1,7 +1,7 @@
 # Vital_Commands
 
 
-# Openclaw Commands
+## Openclaw Commands ##
 
 openclaw dashboard --no-open
 
