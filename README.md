@@ -3,8 +3,12 @@
 
 ## Openclaw Commands ##
 
+WebWRL for Openclaw
+```
 openclaw dashboard --no-open
+```
 
+Launch Openclaw from Ollama
 ```
 ollama launch openclaw --model deepseek-v3.1:671b-cloud
 ```
