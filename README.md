@@ -5,8 +5,9 @@
 
 openclaw dashboard --no-open
 
-
+```
 ollama launch openclaw --model deepseek-v3.1:671b-cloud
+```
 
 openclaw agents add <name>
 
