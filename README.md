@@ -10,6 +10,8 @@ ollama launch openclaw --model deepseek-v3.1:671b-cloud
 
 openclaw agents add <name>
 
+![Alt text](Agent1.png)
+
 ssh -i "D:\Data\Downloads\Openclaw_test.pem" ubuntu@65.1.149.164
 
 
