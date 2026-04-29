@@ -32,9 +32,12 @@ openclaw agents add <name>
 
 ssh -i "D:\Data\Downloads\Openclaw_test.pem" ubuntu@65.1.149.164
 
+Commands provide permission on the file so local access can be enabled
 
-icacls "D:\Data\Downloads\Openclaw_test.pem" /grant:r "desktop-gabe96h\welcome:R"
-
+```
+icacls "D:\Data\Downloads\Openclaw_test.pem" /inheritance:r
+icacls "D:\Data\Downloads\Openclaw_test.pem" /grant:r "%USERNAME%:R"
+```
 
 ssh -i "D:\Data\Downloads\Openclaw_test.pem" ubuntu@65.1.149.164
 
