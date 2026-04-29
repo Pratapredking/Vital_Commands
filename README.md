@@ -20,6 +20,8 @@ openclaw agents add <name>
 
 ![Alt text](Agent1.png)
 
+![Alt text](Agent2.png)
+
 ssh -i "D:\Data\Downloads\Openclaw_test.pem" ubuntu@65.1.149.164
 
 
