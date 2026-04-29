@@ -3,12 +3,20 @@
 
 ## Openclaw Commands ##
 
+WebURL for Openclaw
+```
 openclaw dashboard --no-open
+```
 
-
+Launch Openclaw from Ollama
+```
 ollama launch openclaw --model deepseek-v3.1:671b-cloud
+```
 
+```
 openclaw agents add <name>
+```
+
 
 ![Alt text](Agent1.png)
 
