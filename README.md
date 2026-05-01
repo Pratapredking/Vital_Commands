@@ -39,7 +39,13 @@ icacls "D:\Data\Downloads\Openclaw_test.pem" /inheritance:r
 icacls "D:\Data\Downloads\Openclaw_test.pem" /grant:r "%USERNAME%:R"
 ```
 
+AWS Ubuntu EC2 instance access locally
+```
 ssh -i "D:\Data\Downloads\Openclaw_test.pem" ubuntu@65.1.149.164
+```
 
+Local tunnel to server
+```
 ssh -i "D:\Data\Downloads\Openclaw_test.pem" -N -L 18789:127.0.0.1:18789 ubuntu@65.1.149.164
+```
 
