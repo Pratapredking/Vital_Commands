@@ -32,7 +32,7 @@ openclaw agents add <name>
 
 ssh -i "D:\Data\Downloads\Openclaw_test.pem" ubuntu@65.1.149.164
 
-Commands provide permission on the file so local access can be enabled
+Commands provide necessary permissions on the file so local access can be enabled
 
 ```
 icacls "D:\Data\Downloads\Openclaw_test.pem" /inheritance:r
@@ -41,11 +41,11 @@ icacls "D:\Data\Downloads\Openclaw_test.pem" /grant:r "%USERNAME%:R"
 
 AWS Ubuntu EC2 instance access locally
 ```
-ssh -i "D:\Data\Downloads\Openclaw_test.pem" ubuntu@65.1.149.164
+ssh -i "D:\Data\Downloads\Openclaw_test.pem" ubuntu@<public IP>
 ```
 
 Local tunnel to server
 ```
-ssh -i "D:\Data\Downloads\Openclaw_test.pem" -N -L 18789:127.0.0.1:18789 ubuntu@65.1.149.164
+ssh -i "D:\Data\Downloads\Openclaw_test.pem" -N -L 18789:127.0.0.1:18789 ubuntu@<public IP>
 ```
 
